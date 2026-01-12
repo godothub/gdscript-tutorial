@@ -1,10 +1,20 @@
-## GDScript入门教程
+# GDScript教程
 
-[点击这里阅读](https://godothub.com/oss/gdscript-tutorial)
+`GDScript`是`Godot`引擎的专用脚本语言，具有简单易学、开发便捷的特点。本教程将带你从基础代码框架入门，逐步掌握`GDScript`语法，学习面向对象编程和设计模式，并提供了丰富的代码示例。
 
-包含了以下内容：
+文档已部署为网站，可以[点击阅读](https://godothub.com/oss/gdscript-tutorial)。
+
+
+## 主要内容
+
 1. GDScript语法
 2. 可调用体和信号
 3. 面向对象入门
 4. 设计模式
 5. 注解和文档注释
+
+
+## 使用须知
+
+* 教程中的`GDScript`代码以`MIT`协议开源
+* 教程里的文字内容非商用时**注明出处**即可，商用请联系我们
