@@ -1,0 +1,1 @@
+import{_ as t,c as a,o as r,ag as o}from"./chunks/framework.xT_8jeIh.js";const h=JSON.parse('{"title":"GDScript教程","description":"","frontmatter":{},"headers":[],"relativePath":"README.md","filePath":"README.md"}'),i={name:"README.md"};function l(c,e,d,s,n,p){return r(),a("div",null,[...e[0]||(e[0]=[o("",7)])])}const u=t(i,[["render",l]]);export{h as __pageData,u as default};
