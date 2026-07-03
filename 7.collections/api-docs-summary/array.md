@@ -400,7 +400,7 @@ func is_even(number):
     return number % 2 == 0
 
 func _ready():
-    print([1, 4, 5, 8].filter(is_even)) 
+    print([1, 4, 5, 8].filter(is_even))
     # 输出: [4, 8]
 
     # 使用 lambda 方式实现同样功能
@@ -470,7 +470,7 @@ func _ready():
 ```gdscript
 func is_even(number):
     return number % 2 == 0
-    
+
 func _ready():
     print([1, 3, 4, 7].find_custom(is_even.bind()))
     # 输出: 2 （第一个偶数是 4，索引为 2）
@@ -631,7 +631,7 @@ print(["inside", 7].has("7"))       # 输出 false
 
 ### 返回值
 
-成功返回 `OK`，失败时返回错误码（`Error`枚举中的值）。
+成功返回 `OK`，失败时返回错误码（`Error` 枚举中的值）。
 
 # `bool is_empty() const`
 
@@ -744,7 +744,7 @@ func double(number):
     return number * 2
 
 func _ready():
-    print([1, 2, 3].map(double)) 
+    print([1, 2, 3].map(double))
     # 输出: [2, 4, 6]
 
     # 使用 lambda
@@ -1199,7 +1199,7 @@ print(numbers) # 输出 [2.5, 5, 8, 10]
 超灵活，适合复杂结构～也能搭配 `lambda` 用法更简洁！
 同样是**不稳定排序**，且**不要使用随机返回值**，否则会引发奇怪问题
 
-C# 中不支持该方法，请使用LINQ中的[`System.Linq.Enumerable.OrderBy`](https://learn.microsoft.com/en-us/dotnet/api/system.linq.enumerable.orderby)
+C# 中不支持该方法，请使用 LINQ 中的 [`System.Linq.Enumerable.OrderBy`](https://learn.microsoft.com/en-us/dotnet/api/system.linq.enumerable.orderby)
 
 排序算法不稳定（相等元素顺序可能变化）
 
