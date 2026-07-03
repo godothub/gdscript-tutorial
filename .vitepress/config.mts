@@ -51,6 +51,7 @@ export default defineConfig({
           text: '在线编辑此页'
         },
         outlineTitle: '本页目录',
+        sidebarMenuLabel: '菜单',
         returnToTopLabel: '返回顶部',
         darkModeSwitchLabel: '深色模式',
         docFooter: {
