@@ -534,7 +534,7 @@ float64数组编码后的长度为：`float64_arr.size() * 8`
 #### Variant 编码
 
 * `encode_var(offset, value, allow_objects = false)`
-  将 `Variant `编码为字节数据，返回写入的字节数。支持大部分类型，如果禁止`Object`序列化，即`allow_objects`为`false`，则只会将其ID进行序列化
+  将 `Variant` 编码为字节数据，返回写入的字节数。支持大部分类型，如果禁止`Object`序列化，即`allow_objects`为`false`，则只会将其ID进行序列化
 
 ### 从字节数组还原到字符串
 
