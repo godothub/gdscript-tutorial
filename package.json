@@ -10,8 +10,7 @@
     "docs:preview": "vitepress preview"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "GodotHub",
   "packageManager": "pnpm@10.27.0",
   "devDependencies": {
     "vitepress": "^1.6.4"
