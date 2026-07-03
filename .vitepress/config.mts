@@ -4,17 +4,25 @@ export default defineConfig({
 
   title: "GDScript教程",
   base: "/oss/gdscript-tutorial/",
-  description: "Godot Hub GDScript Tutorial",
+  description: "GodotHub GDScript Tutorial",
   head: [
     [
       'link',
-      { rel: 'icon', href: 'https://godothub.atomgit.net/public/icon/godothub.png' }
+      {
+        rel: 'icon',
+        type: 'image/png',
+        href: 'https://legacy.godothub.com/icon/godothub.png'
+      }
     ]
   ],
 
   themeConfig: {
     outline: [2, 3],
-    logo: 'https://godothub.atomgit.net/public/icon/godothub.png',
+    logo: {
+      light: 'https://legacy.godothub.com/godothub_light_logo.png',
+      dark: 'https://legacy.godothub.com/godothub_dark_logo.png',
+      alt: 'GodotHub'
+    },
     search: {
       provider: 'local'
     },
@@ -23,7 +31,7 @@ export default defineConfig({
       {
         icon: {
           svg: '<svg t="1752549772860" class="icon" viewBox="0 0 1056 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2154" width="200" height="200"><path d="M479.663158 988.429474c-90.004211-10.24-187.553684-48.505263-247.376842-96.471579-33.953684-26.947368-90.004211-88.387368-111.023158-120.724211-64.134737-99.166316-90.004211-222.046316-70.602105-333.608421 18.863158-107.250526 63.056842-191.326316 141.20421-267.856842 135.814737-133.12 353.010526-175.157895 527.090526-101.861053 57.128421 24.252632 112.101053 58.206316 134.736843 82.997895 44.193684 49.044211 28.025263 128.808421-31.258948 158.450526-25.330526 12.395789-72.218947 12.934737-90.543158 1.077895s-35.031579-44.193684-39.343158-77.069473c-2.155789-15.629474-4.850526-28.564211-5.389473-28.564211-1.077895 0-14.551579 7.545263-29.642106 16.168421-49.583158 29.103158-64.134737 33.414737-140.126315 38.265263-39.882105 2.155789-84.075789 5.928421-97.549474 8.084211-24.791579 3.233684-54.972632-1.077895-102.938947-16.168421l-25.330527-8.084211 1.077895 52.277895c0.538947 50.661053 0 53.355789-21.557895 98.088421-28.025263 58.206316-38.265263 93.237895-42.576842 144.976842-10.24 124.496842 57.667368 217.195789 186.47579 253.844211 83.536842 23.713684 221.507368 18.863158 296.421052-10.778948 71.68-28.564211 134.736842-94.854737 134.736842-142.282105 0-19.402105-24.791579-44.193684-51.738947-50.661053-11.317895-3.233684-54.433684-7.006316-95.393684-8.623158-86.770526-3.772632-147.132632-11.856842-163.84-22.635789s-25.330526-40.96-17.785263-63.59579c7.545263-23.713684 19.402105-33.953684 54.433684-46.888421 23.713684-9.162105 40.96-10.778947 109.945263-10.778947 146.593684 0 215.578947 18.324211 269.473684 72.218947 61.978947 62.517895 68.446316 157.372632 16.168421 241.448421-77.069474 123.418947-168.151579 194.021053-291.570526 225.818948-41.498947 11.317895-151.444211 18.324211-196.176842 12.934737z" fill="#D62240" p-id="2155"></path></svg>'
-        }, link: 'https://gitcode.com/godothub/gdscript-tutorial'
+        }, link: 'https://atomcode.com/godothub/gdscript-tutorial'
       },
       {
         icon:
@@ -39,11 +47,11 @@ export default defineConfig({
     root: {
       label: '简体中文',
       lang: 'zh-CN',
-      description: 'Godot Hub: 国内领先的Godot游戏引擎社区和服务平台',
+      description: 'GodotHub: 国内领先的Godot游戏引擎社区和服务平台',
       themeConfig: {
         lastUpdatedText: '最后更新于',
         editLink: {
-          pattern: 'https://github.com/godothub/gdscript-tutorial/edit/main/docs/:path',
+          pattern: 'https://github.com/godothub/gdscript-tutorial/edit/main/:path',
           text: '在线编辑此页'
         },
         outlineTitle: '本页目录',
@@ -79,15 +87,15 @@ export default defineConfig({
 
         sidebar: {
           '/': [
-            { 
-              text: '摸底测试', 
-              link: '/1.pre-test', 
-              items: [] 
+            {
+              text: '摸底测试',
+              link: '/1.pre-test',
+              items: []
             },
-            { 
-              text: '初识代码结构', 
-              link: '/2.introduction-to-code-structure', 
-              items: [] 
+            {
+              text: '初识代码结构',
+              link: '/2.introduction-to-code-structure',
+              items: []
             },
             {
               text: '变量与基本数据类型',
@@ -126,7 +134,7 @@ export default defineConfig({
 
             {
               text: '函数',
-              link: '/6.functions', 
+              link: '/6.functions',
               items: []
             },
 
@@ -151,13 +159,13 @@ export default defineConfig({
 
             {
               text: '可调用体',
-              link: '/8.callable', 
+              link: '/8.callable',
               items: []
             },
 
             {
               text: '信号',
-              link: '/9.signals', 
+              link: '/9.signals',
               items: []
             },
 
@@ -244,14 +252,22 @@ export default defineConfig({
 
             {
               text: '注解',
-              link: '/11.annotation', 
+              link: '/11.annotation',
               items: []
             },
 
             {
               text: '文档注释',
-              link: '/12.doc-comments', 
+              link: '/12.doc-comments',
               items: []
+            },
+
+            {
+              text: '进阶内容',
+              collapsed: true,
+              items: [
+                { text: '迭代器接口', link: '/extra-content/iterator-interface' },
+              ]
             }
           ]
         }
