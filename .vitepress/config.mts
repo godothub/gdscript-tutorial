@@ -18,11 +18,7 @@ export default defineConfig({
 
   themeConfig: {
     outline: [2, 3],
-    logo: {
-      light: 'https://legacy.godothub.com/godothub_light_logo.png',
-      dark: 'https://legacy.godothub.com/godothub_dark_logo.png',
-      alt: 'GodotHub'
-    },
+    logo: 'https://legacy.godothub.com/icon/godothub.png',
     search: {
       provider: 'local'
     },
